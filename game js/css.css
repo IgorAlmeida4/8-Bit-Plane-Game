@@ -2,11 +2,10 @@ html, body {
 	margin: 0; height: 100%; overflow: hidden;
 }
 
-.test {
-	background-image: ("../game js/Pictures/background.png");
-	background-image: url('background.jpg');
-}
 
+.test {
+	background-image: url('../game js/Pictures/background.png');
+}
 
 #game-container {
 	width: 100%;
