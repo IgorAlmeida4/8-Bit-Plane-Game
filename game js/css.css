@@ -3,8 +3,8 @@ html, body {
 }
 
 .test {
-	background-image: ("../game js/Pictures/startScreenBackground.png");
-	background-image: url('starScreenBackground.jpg');
+	background-image: ("../game js/Pictures/background.png");
+	background-image: url('background.jpg');
 }
 
 
