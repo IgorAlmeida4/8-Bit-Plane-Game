@@ -8,11 +8,11 @@ let levelDiv = document.getElementById('level');
 let playerX = 275;
 let playerY = 0;
 
-let playerSpeed = 10;
-let obstacleSpeed = 5;
-let powerUpSpeed = 5;
+let playerSpeed = 25;
+let obstacleSpeed = 20;
+let powerUpSpeed = 15;
 
-let obstacleSpawnInterval = 1500;
+let obstacleSpawnInterval = 1000;
 let powerUpSpawnInterval = 5000;
 let score = 0;
 let level = 1;
@@ -150,7 +150,7 @@ function collision(a, b) {
 function spawnObstacle() {
     if (Math.random() < 0.02) {
         let obstacle = document.createElement('img');
-        obstacle.src = 'path/to/obstacle/npc.avif';
+        obstacle.src = 'path/to/obstacle/enemy.gif';
         obstacle.classList.add('obstacle');
         obstacle.style.left = Math.random() * (gameContainer.offsetWidth - obstacle.offsetWidth) + 'px';
         obstacle.style.top = '-50px';
